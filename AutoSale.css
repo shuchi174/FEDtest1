@@ -1,0 +1,183 @@
+html {
+	box-sizing: border-box
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+body {
+	margin: 0;
+}	
+.autoSaleNavBar-top  {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background-color: #3d4852;
+}	
+.autoSaleNavBar-item  {
+	padding: 15px;
+	white-space: normal;
+	float: left;
+	width: auto;
+	border: none;
+	outline: none;
+	display: block;
+	cursor: pointer;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+}
+.autoSaleNavBar-item:hover {
+	background-color: green;
+}
+.navBarHomeImage:before {
+	content: url('logo-autosales.svg');
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.autoSaleNavBar-bar-right {
+	float: right!important;
+	box-sizing: inherit;
+}
+.navBarSearchImage {
+	padding-top: 17px;
+}
+.navBarSearchImage:before {
+	content: url('icon-search-white.svg');
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.autoSaleNavBar-font {
+	font-family: Helvetica Neue, roboto, arial;
+    font-weight: bold;
+    color: #fff;
+}
+.autoSaleNavBar-font-right {
+	font-size: 14px;
+	padding-top: 25px;
+}
+.autoSaleNavBar-font-left {
+	font-size: 24px;
+}
+.autoSaleHeader {
+	background-image: url(top_image.png);
+	padding: 130px 10%;
+	background-size: cover;
+}
+.autoSaleHeader-title {
+	font-size: 48px;
+	font-family: Helvetica Neue, roboto, arial;
+	color: #3D4852;
+}
+.autoSaleHeader-button {
+	background-color: #28C278; 
+	color: #ffffff; 
+	font-size: 18px; 
+	font-weight: bold; 
+	width: 280px; 
+	height: 60px; 
+	display: inline-block;
+	border: none;
+	outline: 0;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	margin-top: 20px;
+}
+.gridImage {
+	width: 100%;
+	height: auto;
+	border-style: none;
+	padding: 10px;
+}
+.gridCommonValues {
+	float: left;
+}
+
+.firstGridSecondImage:before{
+	content: url('redhonda.png');
+	height: 100%;
+}
+
+.autoSaleHeader:before , .autoSaleHeader:after, .autoSaleGridContainer-row:before, .autoSaleGridContainer-row:after{	
+	content: "";
+	display: table;
+	clear: both;
+}
+.autoSaleGridContainer {
+	padding: 40px 10% 0px 10%;
+}
+.autoSaleGridTitle {
+	font-family: Helvetica Neue, roboto, arial;
+    font-weight: bold;
+	font-size: 30px;
+	color: #3d4852;
+	margin-top: 10px;
+}
+.autoSaleGridSubTitle {
+	font-family: Helvetica Neue, roboto, arial;
+	font-size: 18px;
+	color: #3d4852;
+	margin-right: 40px;
+}
+.autoSaleGridCommonPadding {
+	padding-left: 0;
+}
+.autoSaleOddGridImage {
+	padding-left: 0;
+	margin-left: 10px;
+}
+.autoSaleOddColumn {
+	padding-left: 50px;
+	padding-top: 5px;
+}
+.autoSaleGridButton {
+	background-color: #4FC4E6; 
+	color: #ffffff; 
+	font-size: 18px; 
+	border: 1px solid #4FC4E6; 
+	width: 120px; 
+	height: 45px;
+	display: inline-block;
+	border: none;
+	outline: 0;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	margin-top: 20px;
+}
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+@media only screen and (max-width: 730px) {
+	.autoSaleNavBar-bar-right {
+		display: none;
+	}
+}	
