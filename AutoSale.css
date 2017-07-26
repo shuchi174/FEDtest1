@@ -1,0 +1,333 @@
+html {
+	box-sizing: border-box
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit
+}
+
+body {
+	margin: 0;
+	font-family: Helvetica Neue, Roboto, Arial;
+}	
+.autoSaleNavBar-top  {
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	background-color: #3d4852;
+}	
+.autoSaleNavBar-item  {
+	padding: 10px 13px 10px 13px;
+	white-space: normal;
+	float: left;
+	width: auto;
+	border: none;
+	outline: none;
+	display: block;
+	cursor: pointer;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+}
+.autoSaleNavBar-item:hover {
+	background-color: black;
+}
+.autoSaleDropDownSection {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.navBarHomeImage:before {
+	content: url('logo-autosales.svg');
+	width: 43px;
+	height: 30px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.footerVerticalLine:before {
+	content: " | ";
+	width: 25px;
+	height: 25px;
+	float: left;
+}
+.autoSaleNavBarHeight {
+	height: 50px!important;
+}
+.autoSaleNavBar-bar-right {
+	float: right!important;
+	box-sizing: inherit;
+}
+.navBarSearchImage {
+	padding-top: 10px;
+}
+.navBarSearchImage:before {
+	content: url('icon-search-white.svg');
+	width: 24px;
+	height: 24px;
+	float: left;
+}
+.autoSaleNavBar-font {
+
+    font-weight: bold;
+    color: #fff;
+}
+.autoSaleNavBar-font-right {
+	font-size: 14px;
+	padding-top: 15px;
+}
+.autoSaleNavBar-font-left {
+	font-size: 24px;
+}
+.autoSaleHeader {
+	background-image: url('top_image.png');
+	padding: 130px 10%;
+	background-size: cover;
+}
+.autoSaleHeader-title {
+	font-size: 48px;
+	color: #3D4852;
+}
+.autoSaleHeader-button {
+	background-color: #28C278; 
+	color: #ffffff; 
+	font-size: 18px; 
+	font-weight: bold; 
+	width: 280px; 
+	height: 60px; 
+	display: inline-block;
+	border: none;
+	outline: 0;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	margin-top: 20px;
+}
+.autoSaleHeader-button:hover {
+	background-color: #2edd89;
+	opacity: 1;
+}
+.gridImage {
+	width: 100%;
+	height: auto;
+	border-style: none;
+	padding: 10px;
+}
+.autoSaveOddGridFig figcaption {
+	background: rgba(61, 72, 82, 0.6);
+	color: white;
+	height: calc(100% - 20px);
+	width: calc(100% - 20px);
+	left: 10px;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 8px;
+	z-index: 100;
+}
+.autoSaveEvenGridFig figcaption {
+	background: rgba(61, 72, 82, 0.6);
+	color: white;
+	height: calc(100% - 20px);
+	left: 0px;
+	width: calc(100% - 10px);
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 8px;
+	z-index: 100;
+}
+.autoSaveEvenGridFigSecondImage figcaption {
+	background: rgba(61, 72, 82, 0.6);
+	color: white;
+	height: calc(100% - 20px);
+	left: 10px;
+	width: calc(100% - 10px);
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 8px;
+	z-index: 100;
+}
+.gridCommonValues:hover  figcaption {
+	opacity: 1;
+	
+}
+.figureCaptionUnderLine {
+	top: 41%!important;
+    position: absolute!important;
+    left: 16%!important;
+    font-weight: bold!important;
+    right: 20%!important;
+	
+}
+.figureCaptionParagraph {
+	top: 50%!important;
+}
+.gridCommonValues figcaption p {
+	margin: 0px !important;
+	font-size: 8vw;
+	position: absolute;
+	top: 30%;
+	left: 23%;
+}
+.gridCommonValues figure {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	margin: 0px !important;
+}
+
+.gridCommonValues {
+	float: left;
+}
+
+.firstGridSecondImage:before{
+	content: url('redhonda.png');
+	height: 100%;
+}
+
+.autoSaleHeader:before , .autoSaleHeader:after, .autoSaleGridContainer-row:before, .autoSaleGridContainer-row:after{	
+	content: "";
+	display: table;
+	clear: both;
+}
+.autoSaleGridContainer {
+	padding: 40px 10% 0px 10%;
+}
+.autoSaleFourthGrid {
+	padding-bottom: 40px !important;
+}
+.autoSaleOddGridColor {
+	background-color: #f0f2f3;
+}
+.dropdownMargin {
+	margin-bottom: 15px!important;
+}
+.autoSaleGridTitle {
+	
+    font-weight: bold;
+	font-size: 30px;
+	color: #3d4852;
+	margin-top: 10px;
+}
+.autoSaleGridSubTitle {
+	font-size: 18px;
+	color: #3d4852;
+	font-weight: normal;
+	margin-right: 40px;
+}
+
+.autoSaleGridCommonPadding {
+	padding-left: 0;
+}
+.autoSaleOddGridImage {
+	padding-left: 0;
+	margin-left: 10px;
+}
+.autoSaleOddColumn {
+	padding-left: 50px;
+	padding-top: 5px;
+}
+.autoSaleGridButton {
+	background-color: #4FC4E6; 
+	color: #ffffff; 
+	font-size: 18px; 
+	border: 1px solid #4FC4E6; 
+	width: 120px; 
+	height: 45px;
+	display: inline-block;
+	border: none;
+	font-weight: bold;
+	outline: 0;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.autoSaleGridButton:hover {
+	background-color: #54d4f9;
+	opacity: 0.7;
+}
+.footerLeftAutoSaleLink {
+	height: 70px !important;
+    padding-top: 20px !important;
+}
+.footerFont {
+    color: #6d7780 !important;
+    padding-top: 25px !important;
+    padding-right: 5px !important;
+    padding-left: 0px !important;
+    height: 70px !important;
+}
+.autoSale-dropdown-button:hover {
+	background-color: #fc8462;
+	opacity: 0.7;
+}
+.autoSale-dropdown-button {
+	color:#ffffff; 
+	background-color:#F07E5E;
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid #4FC4E6; 
+	flex: 1 1 0;
+	border: none;
+	outline: 0;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+	min-width: 170px;
+
+}
+.autoSaleFooter {
+	width: 100%;
+	z-index: 1;
+	position: relative;
+	background-color: #3d4852;
+	height: 70px;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	.gridCommonValues figcaption p { font-size: 2vw;}
+}
+@media only screen and (max-width: 720px) {
+	.autoSaleNavBar-bar-right {
+		display: none;
+	}
+}
+@media only screen and (max-width: 860px) {
+	.footerRightSection {
+		display: none;
+	}
+}	

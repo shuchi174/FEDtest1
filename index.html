@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AutoSale Template</title>
+	<meta charset= 'UTF-8'>
+	<meta name= "viewport" content= "width= device-width, initial-scale= 1">
+	<link rel= "stylesheet" href= "AutoSale.css">
+	<link rel= "stylesheet" href= "AutoSaleDropDown.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class= "autoSaleNavBar-top">
+		<div class= "autoSaleNavBar-bar" id= "navBar" >
+			<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-left navBarHomeImage">AutoSales.com</a>
+			<!--- Right sided navigation bar links-->
+			<div class= "autoSaleNavBar-bar-right">
+				<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-right autoSaleNavBarHeight">Cars for Sale</a>
+				<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-right autoSaleNavBarHeight">Sell My Car</a>
+				<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-right autoSaleNavBarHeight">Find a Dealer</a>
+				<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-right autoSaleNavBarHeight">Contact Us</a>
+				<span class= "navBarSearchImage autoSaleNavBar-item"></span>  						
+			</div>		
+		</div>
+	</div>
+	<!--Header -->
+	<header class= "autoSaleHeader">
+		<h1 class= "autoSaleHeader-title">The Car of Your Dreams<br/> is only a  Click Away!</h1>
+		<button class= "autoSaleHeader-button">Get Started Now</button>		
+	</header>
+	<!--DropDown Panel -->
+	<div class= "autoSaleGridContainer dropdownMargin">
+		<div class= "autoSaleDropDownSection">
+			<div id= "dd" class= "wrapper-dropdown-5" tabindex= "1">Make
+				<ul class= "dropdown">
+					<li><a href="#">Honda</a></li>
+					<li><a href="#">Audi</a></li>
+					<li><a href="#">Chevy</a></li>
+				</ul>
+			</div>
+			<div class="wrapper-dropdown-5" tabindex="1">Model
+				<ul class= "dropdown">
+					<li><a href="#">X1</a></li>
+					<li><a href="#">X2</a></li>
+					<li><a href="#">X3</a></li>
+				</ul>
+			</div>
+			<div class="wrapper-dropdown-5" tabindex= "1">Price
+				<ul class= "dropdown">
+					<li><a href="#">X1</a></li>
+					<li><a href="#">X2</a></li>
+					<li><a href="#">X3</a></li>
+				</ul>
+			</div>
+			<button class= "autoSale-dropdown-button">Find My Dream Car</button>
+		</div>
+	</div>
+	
+	<!--First Grid -->
+	<div class= "autoSaleGridContainer autoSaleOddGridColor">
+		<div class= "autoSaleGridContainer-row">
+			<div class= "col-6 gridCommonValues">
+				<h1 class= "autoSaleGridTitle">Honda Cars and SUVs</h1>
+				<h5 class= "autoSaleGridSubTitle">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</h5>
+				<button class= "autoSaleGridButton">View all</button>
+			</div>
+			<div class= "col-3 gridCommonValues autoSaveOddGridFig">
+				<figure>
+					<img src= "whitehonda.png" class= "gridImage" alt= "Table Setting"/>
+					<figcaption>
+						<p>Honda Civic</p>
+						<div class= "figureCaptionUnderLine">
+							<hr>
+						</div>
+						<p class= "figureCaptionParagraph">Learn More</p></figcaption>
+				</figure>
+			</div>
+			<div class= "col-3 gridCommonValues autoSaveOddGridFig">
+				<figure>
+					<img src= "redhonda.png" class= "gridImage" alt= "Table Setting"/>
+					<figcaption>
+						<p>Honda CRV</p>
+						<div class= "figureCaptionUnderLine">
+							<hr>
+						</div>
+						<p class= "figureCaptionParagraph">Learn More</p></figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+	<!--Second Grid -->
+	<div class= "autoSaleGridContainer">
+		<div class= "autoSaleGridContainer-row">
+			<div class= "col-3 gridCommonValues autoSaveEvenGridFig">
+				<figure>
+					<img src= "redAudi.png" class= "gridImage autoSaleGridCommonPadding" alt= "Table Setting"/>
+					<figcaption>
+						<p>Audi A4</p>
+						<div class= "figureCaptionUnderLine">
+							<hr>
+						</div>
+						<p class= "figureCaptionParagraph">Learn More</p></figcaption>
+				</figure>
+				
+			</div>
+			<div class= "col-3 gridCommonValues autoSaveEvenGridFigSecondImage">
+				<figure>
+					<img src= "whiteAudi.png" class= "gridImage autoSaleOddGridImage" alt= "Table Setting"/>
+					<figcaption>
+						<p>Audi Q5</p>
+						<div class= "figureCaptionUnderLine">
+							<hr>
+						</div>
+						<p class= "figureCaptionParagraph">Learn More</p></figcaption>
+				</figure>
+				
+			</div>				
+			<div class= "col-6 gridCommonValues autoSaleOddColumn">
+				<h1 class= "autoSaleGridTitle">Audi Cars and SUVs</h1>
+				<h5 class= "autoSaleGridSubTitle">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</h5>
+				<button class= "autoSaleGridButton">View all</button>
+			</div>
+
+		</div>
+	</div>
+	<!--Third Grid -->
+	<div class= "autoSaleGridContainer autoSaleOddGridColor">
+		<div class= "autoSaleGridContainer-row">
+			<div class= "col-6 gridCommonValues">
+				<h1 class= "autoSaleGridTitle">Chevy Cars, Trucks and SUVs</h1>
+				<h5 class= "autoSaleGridSubTitle">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</h5>
+				<button class= "autoSaleGridButton">View all</button>
+			</div>
+			<div class= "col-3 gridCommonValues autoSaveOddGridFig">
+				<figure> 
+					<img src= "chevy2.png" class= "gridImage" alt= "Table Setting"/>
+					<figcaption>
+						<p>Chevy X</p>
+						<div class= "figureCaptionUnderLine">
+							<hr>
+						</div>
+						<p class= "figureCaptionParagraph">Learn More</p></figcaption>
+				</figure>
+				
+			</div>
+			<div class= "col-3 gridCommonValues autoSaveOddGridFig">
+				<figure>
+					<img src= "chevy1.png" class= "gridImage" alt= "Table Setting"/>
+					<figcaption>
+						<p>Chevy S</p>
+						<div class= "figureCaptionUnderLine">
+							<hr>
+						</div>
+						<p class= "figureCaptionParagraph">Learn More</p></figcaption>
+				</figure>
+				
+			</div>
+		</div>
+	</div>	
+	<!--fourth Grid -->
+	<div class= "autoSaleGridContainer autoSaleFourthGrid">
+		<div class= "autoSaleGridContainer-row">
+			<div class= "col-3 gridCommonValues autoSaveEvenGridFig">
+				<figure>
+					<img src= "Fordwhite.png" class= "gridImage autoSaleGridCommonPadding" alt= "Table Setting"/>
+					<figcaption>
+						<p>Ford L</p>
+						<div class= "figureCaptionUnderLine">
+							<hr>
+						</div>
+						<p class= "figureCaptionParagraph">Learn More</p></figcaption>
+				</figure>
+				
+			</div>
+			<div class= "col-3 gridCommonValues autoSaveEvenGridFigSecondImage">
+				<figure>
+					<img src= "Fordblack.png" class= "gridImage autoSaleOddGridImage" alt= "Table Setting"/>
+					<figcaption>
+						<p>Ford SUV</p>
+						<div class= "figureCaptionUnderLine">
+							<hr>
+						</div>
+						<p class= "figureCaptionParagraph">Learn More</p></figcaption>
+				</figure>
+				
+			</div>				
+			<div class= "col-6 gridCommonValues autoSaleOddColumn">
+				<h1 class= "autoSaleGridTitle">Ford Cars, Trucks and SUVs</h1>
+				<h5 class= "autoSaleGridSubTitle">Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato.</h5>
+				<button class= "autoSaleGridButton">View all</button>
+			</div>
+		</div>
+	</div>
+	<footer class= "autoSaleFooter">
+		<div class= "autoSaleFooter-bar" >
+			<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-left navBarHomeImage footerLeftAutoSaleLink">AutoSales.com</a>
+			<!--- Right sided navigation bar links-->
+			<div class= "autoSaleNavBar-bar-right footerRightSection">
+				<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-right footerFont">Copyright @ 2016 AutoSales.com</a>
+				<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-right footerFont footerVerticalLine">All rights reserved</a>
+				<a href= "javascript:void(0)" class= "autoSaleNavBar-item autoSaleNavBar-font autoSaleNavBar-font-right footerFont footerVerticalLine">Privacy Policy</a>		
+			</div>		
+		</div>
+
+	</footer>
+	<script type="text/javascript" src= "dropDownImplementation.js"></script>
+	
+</body>	
+</html>
